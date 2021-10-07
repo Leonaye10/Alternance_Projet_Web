@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+}
+
+.logo{
+    width: 140px;
+    height: 50px;
+    padding: 20px 100px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+}
+
+.navbar ul li a:active,
+
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 10px;
+}
+
+.form-table{
+    display: table;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-row{
+    display: table-row;
+}
+
+.form-row label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
